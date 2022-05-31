@@ -15,7 +15,7 @@ RUN \
     make \
     g++ \
     nodejs \
-    nodejs-npm
+    npm
 
 
 RUN \
