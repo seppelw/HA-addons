@@ -10,9 +10,8 @@ COPY rootfs /
 
 # Setup base
 RUN \
-    apk --no-cache add \
+    apk --no-cache \
     git \
-    python \
     make \
     g++
 
