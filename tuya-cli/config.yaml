@@ -1,0 +1,26 @@
+---
+name: Tuya-CLI
+version: dev
+slug: Tuya-CLI
+description: Use Tuya-CLI with HomeAssistant
+url: https://github.com/seppelw/HA-addons
+startup: services
+arch:
+  - aarch64
+  - amd64
+  - armhf
+  - armv7
+  - i386
+init: false
+ports:
+ports_description:
+map:
+  - ssl:rw
+options:
+  log_level: info
+  username:
+  password:
+  deviceID: 
+schema:
+  log_level: list(trace|debug|info|notice|warning|error|fatal)?
+  
