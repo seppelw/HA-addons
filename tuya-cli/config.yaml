@@ -12,8 +12,7 @@ arch:
   - armv7
   - i386
 init: false
-ports:
-ports_description:
+
 map:
   - ssl:rw
 options:
@@ -23,4 +22,3 @@ options:
   deviceID: 
 schema:
   log_level: list(trace|debug|info|notice|warning|error|fatal)?
-  
