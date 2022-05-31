@@ -3,7 +3,7 @@ name: Tuya-CLI
 version: dev
 slug: Tuya-CLI
 description: Use Tuya-CLI with HomeAssistant
-url: https://github.com/seppelw/HA-addons
+url: https://github.com/seppelw/ha-addons
 startup: services
 arch:
   - aarch64
