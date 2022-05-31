@@ -13,7 +13,10 @@ RUN \
     apk --no-cache add \
     git \
     make \
-    g++
+    g++ \
+    nodejs
+    
+
 
         
 
