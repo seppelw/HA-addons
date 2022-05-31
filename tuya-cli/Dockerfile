@@ -14,11 +14,12 @@ RUN \
     git \
     make \
     g++ \
-    nodejs
-    
+    nodejs \
+    nodejs-npm
 
 
-        
+RUN \
+    npm i @tuyapi/cli -g
 
 # Build arguments
 ARG BUILD_ARCH
