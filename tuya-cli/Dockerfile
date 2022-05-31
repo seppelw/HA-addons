@@ -10,8 +10,13 @@ COPY rootfs /
 
 # Setup base
 RUN \
-    apk add --no-cache \
-        tor=0.4.6.9-r0
+    apk --no-cache add \
+    git \
+    python \
+    make \
+    g++
+
+        
 
 # Build arguments
 ARG BUILD_ARCH
