@@ -10,7 +10,7 @@ COPY rootfs /
 
 # Setup base
 RUN \
-    apk --no-cache \
+    apk --no-cache add \
     git \
     make \
     g++
